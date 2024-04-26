@@ -14,8 +14,6 @@
 ### Project Overview:
 This project focuses on designing and implementing ETL processes to extract data from a database used by several oil well fields. The data collected includes drilling logs, seismic surveys, production data from a mysql database, and employee information from couch db. This data is extracted and transformed using python libraries before being loaded into centralized data repositories (Postgres and Mongo db database) for analysis.
 
-![Batch ETL Pipeline Diagram](https://github.com/Chukwudi-Ogbuta/Batch-ETL-for-Oil-and-Gas-Exploration-Company/assets/117915257/59d52e36-25c6-40b2-a7c1-929f3d2bc2c6)
-
 
 ### Data Sources
 I utilized python libraries such as random and faker to generate synthetic datasets in order to avoid the use of real information and ensure data privacy. All codes used for generating synthetic data are provided as part of this project.
